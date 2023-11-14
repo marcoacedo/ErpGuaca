@@ -25,26 +25,26 @@
     ''' </summary>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipSeparatorItem1 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
-        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim ToolTipSeparatorItem2 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
-        Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipSeparatorItem3 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
-        Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim ToolTipSeparatorItem4 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
-        Dim SuperToolTip3 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem3 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipSeparatorItem5 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
-        Dim ToolTipItem3 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim ToolTipSeparatorItem6 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
-        Dim SuperToolTip4 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem4 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipSeparatorItem7 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
-        Dim ToolTipItem4 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim ToolTipSeparatorItem8 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
+        Dim SuperToolTip5 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem5 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipSeparatorItem9 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
+        Dim ToolTipItem5 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim ToolTipSeparatorItem10 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
+        Dim SuperToolTip6 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem6 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipSeparatorItem11 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
+        Dim ToolTipItem6 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim ToolTipSeparatorItem12 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
+        Dim SuperToolTip7 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem7 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipSeparatorItem13 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
+        Dim ToolTipItem7 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim ToolTipSeparatorItem14 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
+        Dim SuperToolTip8 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem8 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipSeparatorItem15 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
+        Dim ToolTipItem8 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim ToolTipSeparatorItem16 As DevExpress.Utils.ToolTipSeparatorItem = New DevExpress.Utils.ToolTipSeparatorItem()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmPrincipal))
         Me.rcPrincipal = New DevExpress.XtraBars.Ribbon.RibbonControl()
         Me.bbiInventario = New DevExpress.XtraBars.BarButtonItem()
@@ -57,6 +57,7 @@
         Me.rpgCompras = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.rpgFacturacion = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.rpgTesorería = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         CType(Me.rcPrincipal, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.icImagenes, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -79,21 +80,21 @@
         Me.bbiInventario.ImageOptions.LargeImageIndex = 3
         Me.bbiInventario.LargeWidth = 125
         Me.bbiInventario.Name = "bbiInventario"
-        ToolTipTitleItem1.AllowHtmlText = DevExpress.Utils.DefaultBoolean.[True]
-        ToolTipTitleItem1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ToolTipTitleItem1.Appearance.ForeColor = System.Drawing.Color.Navy
-        ToolTipTitleItem1.Appearance.Options.UseFont = True
-        ToolTipTitleItem1.Appearance.Options.UseForeColor = True
-        ToolTipTitleItem1.ImageOptions.Image = Global.ErpGuaca.My.Resources.Resources.info_32x32
-        ToolTipTitleItem1.Text = "<b><size>Módulo de Control de Inventario</size></p>"
-        ToolTipItem1.Text = "Desde este múduloi controlan los siguientes procesos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Creación de catálogos de " &
+        ToolTipTitleItem5.AllowHtmlText = DevExpress.Utils.DefaultBoolean.[True]
+        ToolTipTitleItem5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        ToolTipTitleItem5.Appearance.ForeColor = System.Drawing.Color.Navy
+        ToolTipTitleItem5.Appearance.Options.UseFont = True
+        ToolTipTitleItem5.Appearance.Options.UseForeColor = True
+        ToolTipTitleItem5.ImageOptions.Image = Global.ErpGuaca.My.Resources.Resources.info_32x32
+        ToolTipTitleItem5.Text = "<b><size>Módulo de Control de Inventario</size></p>"
+        ToolTipItem5.Text = "Desde este múduloi controlan los siguientes procesos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Creación de catálogos de " &
     "categorías, subcategorías," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "items, marcas, artículos, unidades de medida, copros" &
     " etc." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        SuperToolTip1.Items.Add(ToolTipTitleItem1)
-        SuperToolTip1.Items.Add(ToolTipSeparatorItem1)
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        SuperToolTip1.Items.Add(ToolTipSeparatorItem2)
-        Me.bbiInventario.SuperTip = SuperToolTip1
+        SuperToolTip5.Items.Add(ToolTipTitleItem5)
+        SuperToolTip5.Items.Add(ToolTipSeparatorItem9)
+        SuperToolTip5.Items.Add(ToolTipItem5)
+        SuperToolTip5.Items.Add(ToolTipSeparatorItem10)
+        Me.bbiInventario.SuperTip = SuperToolTip5
         '
         'bbiCompras
         '
@@ -102,20 +103,20 @@
         Me.bbiCompras.ImageOptions.LargeImageIndex = 5
         Me.bbiCompras.LargeWidth = 125
         Me.bbiCompras.Name = "bbiCompras"
-        ToolTipTitleItem2.AllowHtmlText = DevExpress.Utils.DefaultBoolean.[True]
-        ToolTipTitleItem2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ToolTipTitleItem2.Appearance.ForeColor = System.Drawing.Color.Navy
-        ToolTipTitleItem2.Appearance.Options.UseFont = True
-        ToolTipTitleItem2.Appearance.Options.UseForeColor = True
-        ToolTipTitleItem2.ImageOptions.Image = Global.ErpGuaca.My.Resources.Resources.info_32x321
-        ToolTipTitleItem2.Text = "<b>Módulo de Control de Compras</b>"
-        ToolTipItem2.Text = "Desde este módulo se controlan los siguientes procesos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Números de parte xarícu" &
+        ToolTipTitleItem6.AllowHtmlText = DevExpress.Utils.DefaultBoolean.[True]
+        ToolTipTitleItem6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        ToolTipTitleItem6.Appearance.ForeColor = System.Drawing.Color.Navy
+        ToolTipTitleItem6.Appearance.Options.UseFont = True
+        ToolTipTitleItem6.Appearance.Options.UseForeColor = True
+        ToolTipTitleItem6.ImageOptions.Image = Global.ErpGuaca.My.Resources.Resources.info_32x321
+        ToolTipTitleItem6.Text = "<b>Módulo de Control de Compras</b>"
+        ToolTipItem6.Text = "Desde este módulo se controlan los siguientes procesos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Números de parte xarícu" &
     "lo, proveedor, lead time x articulos," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "x item generico, x proveedor etc."
-        SuperToolTip2.Items.Add(ToolTipTitleItem2)
-        SuperToolTip2.Items.Add(ToolTipSeparatorItem3)
-        SuperToolTip2.Items.Add(ToolTipItem2)
-        SuperToolTip2.Items.Add(ToolTipSeparatorItem4)
-        Me.bbiCompras.SuperTip = SuperToolTip2
+        SuperToolTip6.Items.Add(ToolTipTitleItem6)
+        SuperToolTip6.Items.Add(ToolTipSeparatorItem11)
+        SuperToolTip6.Items.Add(ToolTipItem6)
+        SuperToolTip6.Items.Add(ToolTipSeparatorItem12)
+        Me.bbiCompras.SuperTip = SuperToolTip6
         '
         'bbiFacturacion
         '
@@ -124,20 +125,20 @@
         Me.bbiFacturacion.ImageOptions.LargeImageIndex = 13
         Me.bbiFacturacion.LargeWidth = 125
         Me.bbiFacturacion.Name = "bbiFacturacion"
-        ToolTipTitleItem3.AllowHtmlText = DevExpress.Utils.DefaultBoolean.[True]
-        ToolTipTitleItem3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ToolTipTitleItem3.Appearance.ForeColor = System.Drawing.Color.Navy
-        ToolTipTitleItem3.Appearance.Options.UseFont = True
-        ToolTipTitleItem3.Appearance.Options.UseForeColor = True
-        ToolTipTitleItem3.ImageOptions.Image = Global.ErpGuaca.My.Resources.Resources.info_32x322
-        ToolTipTitleItem3.Text = "<b>Módulo de Control de Ventas</b>"
-        ToolTipItem3.Text = "Desde este módulo se controlan los siguientes procesos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Generación de ventas, c" &
+        ToolTipTitleItem7.AllowHtmlText = DevExpress.Utils.DefaultBoolean.[True]
+        ToolTipTitleItem7.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        ToolTipTitleItem7.Appearance.ForeColor = System.Drawing.Color.Navy
+        ToolTipTitleItem7.Appearance.Options.UseFont = True
+        ToolTipTitleItem7.Appearance.Options.UseForeColor = True
+        ToolTipTitleItem7.ImageOptions.Image = Global.ErpGuaca.My.Resources.Resources.info_32x322
+        ToolTipTitleItem7.Text = "<b>Módulo de Control de Ventas</b>"
+        ToolTipItem7.Text = "Desde este módulo se controlan los siguientes procesos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Generación de ventas, c" &
     "otizaciones de clientes, préstamos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "a bodega, pedidos a sucursales, etc."
-        SuperToolTip3.Items.Add(ToolTipTitleItem3)
-        SuperToolTip3.Items.Add(ToolTipSeparatorItem5)
-        SuperToolTip3.Items.Add(ToolTipItem3)
-        SuperToolTip3.Items.Add(ToolTipSeparatorItem6)
-        Me.bbiFacturacion.SuperTip = SuperToolTip3
+        SuperToolTip7.Items.Add(ToolTipTitleItem7)
+        SuperToolTip7.Items.Add(ToolTipSeparatorItem13)
+        SuperToolTip7.Items.Add(ToolTipItem7)
+        SuperToolTip7.Items.Add(ToolTipSeparatorItem14)
+        Me.bbiFacturacion.SuperTip = SuperToolTip7
         '
         'bbiTesoreria
         '
@@ -146,21 +147,21 @@
         Me.bbiTesoreria.ImageOptions.LargeImageIndex = 15
         Me.bbiTesoreria.LargeWidth = 125
         Me.bbiTesoreria.Name = "bbiTesoreria"
-        ToolTipTitleItem4.AllowHtmlText = DevExpress.Utils.DefaultBoolean.[True]
-        ToolTipTitleItem4.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        ToolTipTitleItem4.Appearance.ForeColor = System.Drawing.Color.Navy
-        ToolTipTitleItem4.Appearance.Options.UseFont = True
-        ToolTipTitleItem4.Appearance.Options.UseForeColor = True
-        ToolTipTitleItem4.ImageOptions.Image = Global.ErpGuaca.My.Resources.Resources.info_32x323
-        ToolTipTitleItem4.Text = "<b>Módulo de Control de Tesorería</b>"
-        ToolTipItem4.Text = "Desde este módulo se controlan lossiguienes  procesos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Cobro de documentos, ing" &
+        ToolTipTitleItem8.AllowHtmlText = DevExpress.Utils.DefaultBoolean.[True]
+        ToolTipTitleItem8.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        ToolTipTitleItem8.Appearance.ForeColor = System.Drawing.Color.Navy
+        ToolTipTitleItem8.Appearance.Options.UseFont = True
+        ToolTipTitleItem8.Appearance.Options.UseForeColor = True
+        ToolTipTitleItem8.ImageOptions.Image = Global.ErpGuaca.My.Resources.Resources.info_32x323
+        ToolTipTitleItem8.Text = "<b>Módulo de Control de Tesorería</b>"
+        ToolTipItem8.Text = "Desde este módulo se controlan lossiguienes  procesos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Cobro de documentos, ing" &
     "reso de deposítiso de clientes," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "cierres diarios de cajas, reportes de cajas, et" &
     "c"
-        SuperToolTip4.Items.Add(ToolTipTitleItem4)
-        SuperToolTip4.Items.Add(ToolTipSeparatorItem7)
-        SuperToolTip4.Items.Add(ToolTipItem4)
-        SuperToolTip4.Items.Add(ToolTipSeparatorItem8)
-        Me.bbiTesoreria.SuperTip = SuperToolTip4
+        SuperToolTip8.Items.Add(ToolTipTitleItem8)
+        SuperToolTip8.Items.Add(ToolTipSeparatorItem15)
+        SuperToolTip8.Items.Add(ToolTipItem8)
+        SuperToolTip8.Items.Add(ToolTipSeparatorItem16)
+        Me.bbiTesoreria.SuperTip = SuperToolTip8
         '
         'icImagenes
         '
@@ -191,7 +192,7 @@
         '
         'rpComercial
         '
-        Me.rpComercial.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.rpgInventario, Me.rpgCompras, Me.rpgFacturacion, Me.rpgTesorería})
+        Me.rpComercial.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.rpgInventario, Me.rpgCompras, Me.rpgFacturacion, Me.rpgTesorería, Me.RibbonPageGroup1})
         Me.rpComercial.Name = "rpComercial"
         Me.rpComercial.Text = "Comercial"
         '
@@ -220,6 +221,11 @@
         Me.rpgTesorería.ItemLinks.Add(Me.bbiTesoreria)
         Me.rpgTesorería.Name = "rpgTesorería"
         Me.rpgTesorería.Text = "Tesorería"
+        '
+        'RibbonPageGroup1
+        '
+        Me.RibbonPageGroup1.Name = "RibbonPageGroup1"
+        Me.RibbonPageGroup1.Text = "RibbonPageGroup1"
         '
         'FrmPrincipal
         '
@@ -250,4 +256,5 @@
     Friend WithEvents rpgFacturacion As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents rpgTesorería As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents bbiTesoreria As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents RibbonPageGroup1 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
 End Class
